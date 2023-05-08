@@ -1664,19 +1664,19 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="BMP280_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39029072/4" value="BMP280V1" x="20.75" y="12.74" smashed="yes" rot="MR270"/>
-<element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="MICROSD_READER_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39051340/5" value="MICROSD_READER" x="76" y="25.16" smashed="yes" rot="R180"/>
+<element name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="MICROSD_READER_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39051340/5" value="MICROSD_READER" x="76" y="24.96" smashed="yes" rot="R180"/>
 <element name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="MPU6050_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39029071/5" value="MPU6050V1" x="16.9" y="32.67" smashed="yes" rot="R90"/>
 <element name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="JST2.54X2P_FOOTPRINT" package3d_urn="urn:adsk.eagle:package:39191967/2" value="JST2.54X2P" x="8.54" y="9.11" smashed="yes" rot="R270"/>
 <element name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="SWITCH_3PIN" package3d_urn="urn:adsk.eagle:package:39192263/4" value="SWITCH_3PIN" x="7" y="21" smashed="yes" rot="R90"/>
-<element name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="WIFI_KIT32" package3d_urn="urn:adsk.eagle:package:39051622/4" value="WIFI_KIT32" x="48" y="36" smashed="yes" rot="R180"/>
+<element name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" package="WIFI_KIT32" package3d_urn="urn:adsk.eagle:package:39051622/4" value="WIFI_KIT32" x="46" y="35" smashed="yes" rot="R180"/>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="SKIB1" x="21" y="49" smashed="yes">
 <attribute name="NAME" x="19.6538" y="50.8288" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="64" x="21" y="49" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="19.73" y="45.825" size="0.6096" layer="27"/>
 </element>
-<element name="M1" library="modules" package="WIRELESS-NRF24L01-PA-EXT" value="WIRELESS-NRF24L01-PA-EXT" x="101" y="23" smashed="yes" rot="R90">
-<attribute name="NAME" x="92.11" y="23" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="109.89" y="23" size="1.27" layer="27" rot="R90" align="top-center"/>
+<element name="M1" library="modules" package="WIRELESS-NRF24L01-PA-EXT" value="WIRELESS-NRF24L01-PA-EXT" x="100.7" y="21.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.81" y="21.4" size="1.27" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="109.59" y="21.4" size="1.27" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="SKIB2" x="24" y="49" smashed="yes">
 <attribute name="NAME" x="22.6538" y="50.8288" size="1.27" layer="25" ratio="10"/>
@@ -1722,7 +1722,7 @@ design rules under a new name.</description>
 <wire x1="24.3655" y1="14.1345" x2="22.016" y2="16.484" width="1" layer="1"/>
 <wire x1="22.016" y1="26.9715" x2="24" y2="28.9555" width="1" layer="1"/>
 <wire x1="22.016" y1="16.484" x2="22.016" y2="26.9715" width="1" layer="1"/>
-<wire x1="27.0845" y1="28.9555" x2="59.77" y2="25.81" width="0" layer="19" extent="1-1"/>
+<wire x1="27.0845" y1="28.9555" x2="57.77" y2="24.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U$1" pad="SDA"/>
@@ -1733,21 +1733,21 @@ design rules under a new name.</description>
 <wire x1="20" y1="15" x2="20" y2="29" width="1" layer="1"/>
 <wire x1="20" y1="29" x2="22.5555" y2="31.5555" width="1" layer="1"/>
 <wire x1="22.5555" y1="31.5555" x2="27.0845" y2="31.5555" width="1" layer="1"/>
-<wire x1="27.0845" y1="31.5555" x2="36.77" y2="48.67" width="0" layer="19" extent="1-1"/>
+<wire x1="27.0845" y1="31.5555" x2="34.77" y2="47.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="M1" pad="7"/>
 <contactref element="U$4" pad="19"/>
 <contactref element="R1" pad="2"/>
-<wire x1="70.92" y1="32" x2="104.81" y2="4.585" width="0" layer="19" extent="1-1"/>
-<wire x1="59.77" y1="28.35" x2="70.92" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="70.92" y1="32" x2="104.51" y2="2.985" width="0" layer="19" extent="1-1"/>
+<wire x1="57.77" y1="27.35" x2="70.92" y2="32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="M1" pad="6"/>
 <contactref element="U$4" pad="23"/>
 <contactref element="R2" pad="2"/>
-<wire x1="70.92" y1="28" x2="102.27" y2="7.125" width="0" layer="19" extent="1-1"/>
-<wire x1="59.77" y1="30.89" x2="70.92" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="70.92" y1="28" x2="101.97" y2="5.525" width="0" layer="19" extent="1-1"/>
+<wire x1="57.77" y1="29.89" x2="70.92" y2="28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="U$5" pad="2"/>
@@ -1765,10 +1765,10 @@ design rules under a new name.</description>
 <contactref element="M1" pad="1"/>
 <contactref element="JP4" pad="1"/>
 <contactref element="U$7" pad="2"/>
-<wire x1="82.905" y1="39.694" x2="97.19" y2="4.585" width="0" layer="19" extent="1-1"/>
-<wire x1="59.77" y1="5.49" x2="82.905" y2="39.694" width="0" layer="19" extent="1-1"/>
-<wire x1="36.77" y1="5.49" x2="59.77" y2="5.49" width="0" layer="19" extent="1-1"/>
-<wire x1="26.87" y1="16.6745" x2="36.77" y2="5.49" width="0" layer="19" extent="1-1"/>
+<wire x1="82.905" y1="39.494" x2="96.89" y2="2.985" width="0" layer="19" extent="1-1"/>
+<wire x1="57.77" y1="4.49" x2="82.905" y2="39.494" width="0" layer="19" extent="1-1"/>
+<wire x1="34.77" y1="4.49" x2="57.77" y2="4.49" width="0" layer="19" extent="1-1"/>
+<wire x1="26.87" y1="16.6745" x2="34.77" y2="4.49" width="0" layer="19" extent="1-1"/>
 <wire x1="27.0845" y1="26.3555" x2="26.87" y2="16.6745" width="0" layer="19" extent="1-1"/>
 <wire x1="8.5" y1="31.93" x2="27.0845" y2="26.3555" width="0" layer="19" extent="1-1"/>
 <wire x1="8.54" y1="7.84" x2="26.87" y2="16.6745" width="0" layer="19" extent="1-1"/>
@@ -1795,71 +1795,67 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="U$2" pad="CS"/>
 <contactref element="U$4" pad="5"/>
-<wire x1="69.805" y1="39.694" x2="59.77" y2="35.97" width="0" layer="19" extent="1-1"/>
+<wire x1="69.805" y1="39.494" x2="57.77" y2="34.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCLK">
 <contactref element="U$2" pad="SCK"/>
 <contactref element="U$4" pad="18"/>
 <contactref element="M1" pad="5"/>
-<wire x1="72.425" y1="39.694" x2="102.27" y2="4.585" width="0" layer="19" extent="1-1"/>
-<wire x1="59.77" y1="33.43" x2="72.425" y2="39.694" width="0" layer="19" extent="1-1"/>
+<wire x1="72.425" y1="39.494" x2="101.97" y2="2.985" width="0" layer="19" extent="1-1"/>
+<wire x1="57.77" y1="32.43" x2="72.425" y2="39.494" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3_2">
 <contactref element="M1" pad="2"/>
 <contactref element="U$4" pad="3V3_2"/>
 <contactref element="JP5" pad="1"/>
 <wire x1="19" y1="4" x2="15" y2="8" width="1" layer="1"/>
-<wire x1="36.77" y1="10.57" x2="97.19" y2="7.125" width="0" layer="19" extent="1-1"/>
-<wire x1="19" y1="4" x2="36.77" y2="10.57" width="0" layer="19" extent="1-1"/>
+<wire x1="34.77" y1="9.57" x2="96.89" y2="5.525" width="0" layer="19" extent="1-1"/>
+<wire x1="19" y1="4" x2="34.77" y2="9.57" width="0" layer="19" extent="1-1"/>
 <wire x1="18" y1="49" x2="15" y2="8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CE">
 <contactref element="M1" pad="3"/>
 <contactref element="U$4" pad="12"/>
-<wire x1="36.77" y1="43.59" x2="99.73" y2="4.585" width="0" layer="19" extent="1-1"/>
+<wire x1="34.77" y1="42.59" x2="99.43" y2="2.985" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CSN_NRF">
 <contactref element="M1" pad="4"/>
 <contactref element="U$4" pad="2"/>
-<wire x1="59.77" y1="41.05" x2="99.73" y2="7.125" width="0" layer="19" extent="1-1"/>
+<wire x1="57.77" y1="40.05" x2="99.43" y2="5.525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SKIB1">
 <contactref element="JP1" pad="1"/>
 <contactref element="U$4" pad="16"/>
-<wire x1="21" y1="49" x2="59.77" y2="48.67" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="49" x2="57.77" y2="47.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SKIB2">
 <contactref element="JP2" pad="1"/>
 <contactref element="U$4" pad="17"/>
-<wire x1="24" y1="49" x2="59.77" y2="46.13" width="0" layer="19" extent="1-1"/>
+<wire x1="24" y1="49" x2="57.77" y2="45.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUZZER">
 <contactref element="JP3" pad="1"/>
 <contactref element="U$4" pad="4"/>
-<wire x1="27" y1="49" x2="59.77" y2="43.59" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="49" x2="57.77" y2="42.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3_1">
 <contactref element="U$2" pad="VCC"/>
 <contactref element="U$3" pad="VCC"/>
 <contactref element="U$1" pad="VCC"/>
 <contactref element="U$4" pad="3V3_1"/>
-<wire x1="30" y1="23.7555" x2="27.0845" y2="23.7555" width="1" layer="1"/>
-<wire x1="32" y1="17" x2="29.7855" y2="19.2145" width="1" layer="1"/>
-<wire x1="29.7855" y1="19.2145" x2="26.87" y2="19.2145" width="1" layer="1"/>
-<wire x1="32" y1="17" x2="32" y2="21.7555" width="1" layer="1"/>
-<wire x1="32" y1="21.7555" x2="30" y2="23.7555" width="1" layer="1"/>
-<wire x1="36.77" y1="8.03" x2="80.285" y2="39.694" width="0" layer="19" extent="1-1"/>
-<wire x1="26.87" y1="19.2145" x2="36.77" y2="8.03" width="0" layer="19" extent="1-1"/>
+<wire x1="34.77" y1="7.03" x2="80.285" y2="39.494" width="0" layer="19" extent="1-1"/>
+<wire x1="26.87" y1="19.2145" x2="34.77" y2="7.03" width="0" layer="19" extent="1-1"/>
+<wire x1="27.0845" y1="23.7555" x2="26.87" y2="19.2145" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO_SD">
 <contactref element="U$2" pad="MISO"/>
 <contactref element="R1" pad="1"/>
-<wire x1="77.665" y1="39.694" x2="81.08" y2="32" width="0" layer="19" extent="1-1"/>
+<wire x1="77.665" y1="39.494" x2="81.08" y2="32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSI_SD">
 <contactref element="U$2" pad="MOSI"/>
 <contactref element="R2" pad="1"/>
-<wire x1="75.045" y1="39.694" x2="81.08" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="75.045" y1="39.494" x2="81.08" y2="28" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

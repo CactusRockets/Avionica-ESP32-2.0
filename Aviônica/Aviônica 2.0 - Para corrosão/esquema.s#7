@@ -91,28 +91,28 @@
 <pad name="SDO" x="6.2255" y="-6.12" drill="0.891"/>
 <text x="-3.429" y="-2.413" size="1.27" layer="21">BMP280</text>
 </package>
-<package name="MICROSD_READER_FOOTPRINT" urn="urn:adsk.eagle:footprint:39051338/2" library_version="15">
-<wire x1="11.935" y1="-18.034" x2="11.935" y2="23.966" width="0.127" layer="21"/>
-<wire x1="11.935" y1="23.966" x2="-12.065" y2="23.966" width="0.127" layer="21"/>
-<wire x1="-12.065" y1="23.966" x2="-12.065" y2="-18.034" width="0.127" layer="21"/>
-<wire x1="-12.065" y1="-18.034" x2="11.935" y2="-18.034" width="0.127" layer="21"/>
-<wire x1="-8.065" y1="20.966" x2="7.935" y2="20.966" width="0.127" layer="21"/>
-<wire x1="7.935" y1="20.966" x2="7.935" y2="4.966" width="0.127" layer="21"/>
-<wire x1="7.935" y1="4.966" x2="-8.065" y2="4.966" width="0.127" layer="21"/>
-<wire x1="-8.065" y1="4.966" x2="-8.065" y2="20.966" width="0.127" layer="21"/>
-<pad name="GND" x="-6.905" y="-14.534" drill="1.3"/>
-<pad name="VCC" x="-4.285" y="-14.534" drill="1.3"/>
-<pad name="MISO" x="-1.665" y="-14.534" drill="1.3"/>
-<pad name="MOSI" x="0.955" y="-14.534" drill="1.3"/>
-<pad name="SCK" x="3.575" y="-14.534" drill="1.3"/>
-<pad name="CS" x="6.195" y="-14.534" drill="1.3"/>
-<circle x="-10.065" y="21.966" radius="1" width="0.127" layer="21"/>
-<circle x="9.935" y="21.966" radius="1" width="0.127" layer="21"/>
-<circle x="9.935" y="-16.034" radius="1" width="0.127" layer="21"/>
-<circle x="-10.065" y="-16.034" radius="1" width="0.127" layer="21"/>
-<text x="-6.365" y="2.766" size="1.27" layer="21">MicroSD reader</text>
+<package name="MICROSD_READER_FOOTPRINT" urn="urn:adsk.eagle:footprint:39051338/2" locally_modified="yes" library_version="20" library_locally_modified="yes">
+<wire x1="12.189" y1="-12.192" x2="12.189" y2="29.808" width="0.127" layer="21"/>
+<wire x1="12.189" y1="29.808" x2="-11.811" y2="29.808" width="0.127" layer="21"/>
+<wire x1="-11.811" y1="29.808" x2="-11.811" y2="-12.192" width="0.127" layer="21"/>
+<wire x1="-11.811" y1="-12.192" x2="12.189" y2="-12.192" width="0.127" layer="21"/>
+<wire x1="-7.811" y1="26.808" x2="8.189" y2="26.808" width="0.127" layer="21"/>
+<wire x1="8.189" y1="26.808" x2="8.189" y2="10.808" width="0.127" layer="21"/>
+<wire x1="8.189" y1="10.808" x2="-7.811" y2="10.808" width="0.127" layer="21"/>
+<wire x1="-7.811" y1="10.808" x2="-7.811" y2="26.808" width="0.127" layer="21"/>
+<pad name="GND" x="-6.651" y="-8.692" drill="1.3"/>
+<pad name="VCC" x="-4.031" y="-8.692" drill="1.3"/>
+<pad name="MISO" x="-1.411" y="-8.692" drill="1.3"/>
+<pad name="MOSI" x="1.209" y="-8.692" drill="1.3"/>
+<pad name="SCK" x="3.829" y="-8.692" drill="1.3"/>
+<pad name="CS" x="6.449" y="-8.692" drill="1.3"/>
+<circle x="-9.811" y="27.808" radius="1" width="0.127" layer="21"/>
+<circle x="10.189" y="27.808" radius="1" width="0.127" layer="21"/>
+<circle x="10.189" y="-10.192" radius="1" width="0.127" layer="21"/>
+<circle x="-9.811" y="-10.192" radius="1" width="0.127" layer="21"/>
+<text x="-6.111" y="8.608" size="1.27" layer="21">MicroSD reader</text>
 </package>
-<package name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029067/3" library_version="17">
+<package name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029067/3" locally_modified="yes" library_version="20" library_locally_modified="yes">
 <wire x1="-10.16" y1="-11.43" x2="10.64" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="10.64" y1="-11.43" x2="10.64" y2="4.17" width="0.127" layer="21"/>
 <wire x1="10.64" y1="4.17" x2="-10.16" y2="4.17" width="0.127" layer="21"/>
@@ -148,67 +148,25 @@
 <wire x1="0.508" y1="-2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
 <text x="-2.54" y="2.794" size="0.6096" layer="21">JST 2.54X2P</text>
 </package>
-<package name="SWITCH_3PIN" urn="urn:adsk.eagle:footprint:39192261/2" library_version="12">
-<pad name="1" x="-3" y="-1.6" drill="0.93"/>
-<pad name="2" x="0" y="-1.6" drill="0.93"/>
-<pad name="3" x="3" y="-1.6" drill="0.93"/>
-<wire x1="-7" y1="1" x2="-7" y2="-4" width="0.127" layer="21"/>
-<wire x1="-7" y1="-4" x2="7" y2="-4" width="0.127" layer="21"/>
-<wire x1="-7" y1="1" x2="7" y2="1" width="0.127" layer="21"/>
-<wire x1="7" y1="-4" x2="7" y2="1" width="0.127" layer="21"/>
-<wire x1="-6.096" y1="-0.635" x2="-6.096" y2="-2.54" width="0.127" layer="20"/>
-<wire x1="-6.096" y1="-2.54" x2="-5.588" y2="-2.54" width="0.127" layer="20"/>
-<wire x1="-5.588" y1="-2.54" x2="-5.588" y2="-0.635" width="0.127" layer="20"/>
-<wire x1="-5.588" y1="-0.635" x2="-6.096" y2="-0.635" width="0.127" layer="20"/>
-<wire x1="5.588" y1="-0.635" x2="5.588" y2="-2.54" width="0.127" layer="20"/>
-<wire x1="5.588" y1="-2.54" x2="6.096" y2="-2.54" width="0.127" layer="20"/>
-<wire x1="6.096" y1="-2.54" x2="6.096" y2="-0.635" width="0.127" layer="20"/>
-<wire x1="6.096" y1="-0.635" x2="5.588" y2="-0.635" width="0.127" layer="20"/>
-<text x="-2.706" y="1.427" size="0.635" layer="21">SWITCH_3PIN</text>
+<package name="SWITCH_3PIN" urn="urn:adsk.eagle:footprint:39192261/2" locally_modified="yes" library_version="20" library_locally_modified="yes">
+<wire x1="-7" y1="2.651" x2="-7" y2="-2.349" width="0.127" layer="21"/>
+<wire x1="-7" y1="-2.349" x2="7" y2="-2.349" width="0.127" layer="21"/>
+<wire x1="-7" y1="2.651" x2="7" y2="2.651" width="0.127" layer="21"/>
+<wire x1="7" y1="-2.349" x2="7" y2="2.651" width="0.127" layer="21"/>
+<text x="-2.706" y="3.078" size="0.635" layer="21">SWITCH_3PIN</text>
+<pad name="1" x="-3" y="-0.018" drill="1"/>
+<pad name="2" x="0" y="-0.018" drill="1"/>
+<pad name="3" x="3" y="-0.018" drill="1"/>
+<pad name="P$1" x="-6" y="0" drill="1.27"/>
+<pad name="P$2" x="6" y="0" drill="1.27"/>
 </package>
 <package name="WIFI_KIT32" urn="urn:adsk.eagle:footprint:39051620/2" locally_modified="yes" library_version="20" library_locally_modified="yes">
-<pad name="GND_1" x="-11.38" y="-11.38" drill="1"/>
-<pad name="3V3_1" x="-11.38" y="-8.88" drill="1"/>
-<pad name="3V3_2" x="-11.38" y="-6.38" drill="1"/>
-<pad name="36" x="-11.38" y="-3.88" drill="1"/>
-<pad name="37" x="-11.38" y="-1.38" drill="1"/>
-<pad name="38" x="-11.38" y="1.12" drill="1"/>
-<pad name="39" x="-11.38" y="3.62" drill="1"/>
-<pad name="34" x="-11.38" y="6.12" drill="1"/>
-<pad name="35" x="-11.38" y="8.62" drill="1"/>
-<pad name="32" x="-11.38" y="11.12" drill="1"/>
-<pad name="33" x="-11.38" y="13.62" drill="1"/>
-<pad name="25" x="-11.38" y="16.12" drill="1"/>
-<pad name="26" x="-11.38" y="18.62" drill="1"/>
-<pad name="27" x="-11.38" y="21.12" drill="1"/>
-<pad name="14" x="-11.38" y="23.62" drill="1"/>
-<pad name="12" x="-11.38" y="26.12" drill="1"/>
-<pad name="13" x="-11.38" y="28.62" drill="1"/>
-<pad name="21" x="-11.38" y="31.12" drill="1"/>
 <wire x1="-12.5" y1="-15" x2="12.5" y2="-15" width="0.127" layer="21"/>
 <wire x1="12.5" y1="-15" x2="12.5" y2="32.5" width="0.127" layer="21"/>
 <wire x1="12.5" y1="32.5" x2="7.5" y2="32.5" width="0.127" layer="21"/>
 <wire x1="7.5" y1="32.5" x2="-7.5" y2="32.5" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="32.5" x2="-12.5" y2="32.5" width="0.127" layer="21"/>
 <wire x1="-12.5" y1="32.5" x2="-12.5" y2="-15" width="0.127" layer="21"/>
-<pad name="GND_2" x="11.12" y="-11.38" drill="1"/>
-<pad name="5V" x="11.12" y="-8.88" drill="1"/>
-<pad name="VEXT_1" x="11.12" y="-6.38" drill="1"/>
-<pad name="VEXT_2" x="11.12" y="-3.88" drill="1"/>
-<pad name="RX" x="11.12" y="-1.38" drill="1"/>
-<pad name="TX" x="11.12" y="1.12" drill="1"/>
-<pad name="RST" x="11.12" y="3.62" drill="1"/>
-<pad name="0" x="11.12" y="6.12" drill="1"/>
-<pad name="22" x="11.12" y="8.62" drill="1"/>
-<pad name="19" x="11.12" y="11.12" drill="1"/>
-<pad name="23" x="11.12" y="13.62" drill="1"/>
-<pad name="18" x="11.12" y="16.12" drill="1"/>
-<pad name="5" x="11.12" y="18.62" drill="1"/>
-<pad name="15" x="11.12" y="21.12" drill="1"/>
-<pad name="2" x="11.12" y="23.62" drill="1"/>
-<pad name="4" x="11.12" y="26.12" drill="1"/>
-<pad name="17" x="11.12" y="28.62" drill="1"/>
-<pad name="16" x="11.12" y="31.12" drill="1"/>
 <wire x1="-4" y1="36" x2="4" y2="36" width="0.127" layer="21"/>
 <wire x1="4" y1="36" x2="7.5" y2="32.5" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="32.5" x2="-4" y2="36" width="0.127" layer="21"/>
@@ -216,6 +174,42 @@
 <wire x1="-7.5" y1="5" x2="7.5" y2="5" width="0.127" layer="21"/>
 <wire x1="7.5" y1="5" x2="7.5" y2="32.5" width="0.127" layer="21"/>
 <text x="-4.25" y="3" size="1.27" layer="21">Wifi kit 32</text>
+<pad name="GND_1" x="-11.4808" y="-12.0523" drill="1"/>
+<pad name="3V3_1" x="-11.4808" y="-9.5123" drill="1"/>
+<pad name="3V3_2" x="-11.4808" y="-6.9723" drill="1"/>
+<pad name="36" x="-11.4808" y="-4.4323" drill="1"/>
+<pad name="37" x="-11.4808" y="-1.8923" drill="1"/>
+<pad name="38" x="-11.4808" y="0.6477" drill="1"/>
+<pad name="39" x="-11.4808" y="3.1877" drill="1"/>
+<pad name="34" x="-11.4808" y="5.7277" drill="1"/>
+<pad name="35" x="-11.4808" y="8.2677" drill="1"/>
+<pad name="32" x="-11.4808" y="10.8077" drill="1"/>
+<pad name="33" x="-11.4808" y="13.3477" drill="1"/>
+<pad name="25" x="-11.4808" y="15.8877" drill="1"/>
+<pad name="26" x="-11.4808" y="18.4277" drill="1"/>
+<pad name="27" x="-11.4808" y="20.9677" drill="1"/>
+<pad name="14" x="-11.4808" y="23.5077" drill="1"/>
+<pad name="12" x="-11.4808" y="26.0477" drill="1"/>
+<pad name="13" x="-11.4808" y="28.5877" drill="1"/>
+<pad name="21" x="-11.4808" y="31.1277" drill="1"/>
+<pad name="GND_2" x="11.43" y="-12.0523" drill="1"/>
+<pad name="5V" x="11.43" y="-9.5123" drill="1"/>
+<pad name="VEXT_1" x="11.43" y="-6.9723" drill="1"/>
+<pad name="VEXT_2" x="11.43" y="-4.4323" drill="1"/>
+<pad name="RX" x="11.43" y="-1.8923" drill="1"/>
+<pad name="TX" x="11.43" y="0.6477" drill="1"/>
+<pad name="RST" x="11.43" y="3.1877" drill="1"/>
+<pad name="0" x="11.43" y="5.7277" drill="1"/>
+<pad name="22" x="11.43" y="8.2677" drill="1"/>
+<pad name="19" x="11.43" y="10.8077" drill="1"/>
+<pad name="23" x="11.43" y="13.3477" drill="1"/>
+<pad name="18" x="11.43" y="15.8877" drill="1"/>
+<pad name="5" x="11.43" y="18.4277" drill="1"/>
+<pad name="15" x="11.43" y="20.9677" drill="1"/>
+<pad name="2" x="11.43" y="23.5077" drill="1"/>
+<pad name="4" x="11.43" y="26.0477" drill="1"/>
+<pad name="17" x="11.43" y="28.5877" drill="1"/>
+<pad name="16" x="11.43" y="31.1277" drill="1"/>
 </package>
 </packages>
 <packages3d>
@@ -224,12 +218,12 @@
 <packageinstance name="BMP280_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="MICROSD_READER_FOOTPRINT" urn="urn:adsk.eagle:package:39051340/5" type="model" library_version="16">
+<package3d name="MICROSD_READER_FOOTPRINT" urn="urn:adsk.eagle:package:39051340/5" type="model" library_version="20" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MICROSD_READER_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/5" type="model" library_version="17">
+<package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/5" type="model" library_version="20" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MPU6050_FOOTPRINT"/>
 </packageinstances>
@@ -239,7 +233,7 @@
 <packageinstance name="JST2.54X2P_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="SWITCH_3PIN" urn="urn:adsk.eagle:package:39192263/4" type="model" library_version="12">
+<package3d name="SWITCH_3PIN" urn="urn:adsk.eagle:package:39192263/4" type="model" library_version="20" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SWITCH_3PIN"/>
 </packageinstances>
@@ -396,7 +390,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MICROSD_READER" urn="urn:adsk.eagle:component:39051341/6" library_version="16">
+<deviceset name="MICROSD_READER" urn="urn:adsk.eagle:component:39051341/6" library_version="20" library_locally_modified="yes">
 <description>Leitor e gravador de cartão SD</description>
 <gates>
 <gate name="G$1" symbol="MICROSD_READER_SYMBOL" x="-20.32" y="-27.94"/>
@@ -420,7 +414,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/6" library_version="17">
+<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/6" library_version="20" library_locally_modified="yes">
 <description>Acelerômetro e Giroscópio</description>
 <gates>
 <gate name="G$1" symbol="MPU6050_SYMBOL" x="-43.18" y="-33.02"/>
@@ -466,7 +460,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SWITCH_3PIN" urn="urn:adsk.eagle:component:39192264/3" library_version="12">
+<deviceset name="SWITCH_3PIN" urn="urn:adsk.eagle:component:39192264/3" locally_modified="yes" library_version="20" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="SWITCH_3PIN" x="0" y="2.54"/>
 </gates>

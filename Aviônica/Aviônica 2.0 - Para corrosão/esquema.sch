@@ -91,7 +91,7 @@
 <pad name="SDO" x="6.2255" y="-6.12" drill="0.891"/>
 <text x="-3.429" y="-2.413" size="1.27" layer="21">BMP280</text>
 </package>
-<package name="MICROSD_READER_FOOTPRINT" urn="urn:adsk.eagle:footprint:39051338/2" locally_modified="yes" library_version="20" library_locally_modified="yes">
+<package name="MICROSD_READER_FOOTPRINT" urn="urn:adsk.eagle:footprint:39051338/3" library_version="22">
 <wire x1="12.189" y1="-12.192" x2="12.189" y2="29.808" width="0.127" layer="21"/>
 <wire x1="12.189" y1="29.808" x2="-11.811" y2="29.808" width="0.127" layer="21"/>
 <wire x1="-11.811" y1="29.808" x2="-11.811" y2="-12.192" width="0.127" layer="21"/>
@@ -112,7 +112,7 @@
 <circle x="-9.811" y="-10.192" radius="1" width="0.127" layer="21"/>
 <text x="-6.111" y="8.608" size="1.27" layer="21">MicroSD reader</text>
 </package>
-<package name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029067/3" locally_modified="yes" library_version="20" library_locally_modified="yes">
+<package name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029067/5" library_version="23">
 <wire x1="-10.16" y1="-11.43" x2="10.64" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="10.64" y1="-11.43" x2="10.64" y2="4.17" width="0.127" layer="21"/>
 <wire x1="10.64" y1="4.17" x2="-10.16" y2="4.17" width="0.127" layer="21"/>
@@ -128,7 +128,6 @@
 <circle x="-8.16" y="2.57" radius="1" width="0.127" layer="21"/>
 <circle x="8.84" y="2.57" radius="1" width="0.127" layer="21"/>
 <text x="-3.66" y="-3.93" size="1.27" layer="21">MPU6050</text>
-<dimension x1="-12.4" y1="4.2" x2="-12.5" y2="-10.8" x3="-13.8456875" y3="-3.290696875" textsize="1.27" layer="20"/>
 </package>
 <package name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:footprint:39191965/1" library_version="9">
 <pad name="1" x="-1.27" y="0" drill="0.9"/>
@@ -149,7 +148,7 @@
 <wire x1="0.508" y1="-2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
 <text x="-2.54" y="2.794" size="0.6096" layer="21">JST 2.54X2P</text>
 </package>
-<package name="SWITCH_3PIN" urn="urn:adsk.eagle:footprint:39192261/2" locally_modified="yes" library_version="20" library_locally_modified="yes">
+<package name="SWITCH_3PIN" urn="urn:adsk.eagle:footprint:39192261/3" library_version="22">
 <wire x1="-7" y1="2.651" x2="-7" y2="-2.349" width="0.127" layer="21"/>
 <wire x1="-7" y1="-2.349" x2="7" y2="-2.349" width="0.127" layer="21"/>
 <wire x1="-7" y1="2.651" x2="7" y2="2.651" width="0.127" layer="21"/>
@@ -161,7 +160,7 @@
 <pad name="P$1" x="-6" y="0" drill="1.27"/>
 <pad name="P$2" x="6" y="0" drill="1.27"/>
 </package>
-<package name="WIFI_KIT32" urn="urn:adsk.eagle:footprint:39051620/2" locally_modified="yes" library_version="20" library_locally_modified="yes">
+<package name="WIFI_KIT32" urn="urn:adsk.eagle:footprint:39051620/3" library_version="22">
 <wire x1="12.5" y1="-14.492" x2="12.5" y2="33.008" width="0.127" layer="21"/>
 <wire x1="12.5" y1="33.008" x2="7.5" y2="33.008" width="0.127" layer="21"/>
 <wire x1="7.5" y1="33.008" x2="-7.5" y2="33.008" width="0.127" layer="21"/>
@@ -173,11 +172,11 @@
 <wire x1="-7.5" y1="33.008" x2="-7.5" y2="5.508" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="5.508" x2="7.5" y2="5.508" width="0.127" layer="21"/>
 <wire x1="7.5" y1="5.508" x2="7.5" y2="33.008" width="0.127" layer="21"/>
-<text x="-4.25" y="3.508" size="1.27" layer="21">Wifi kit 32</text>
 <wire x1="-12.500609375" y1="-14.423390625" x2="-12.500609375" y2="-16.00708125" width="0.127" layer="21"/>
 <wire x1="-12.500609375" y1="-16.00708125" x2="12.499340625" y2="-16.00708125" width="0.127" layer="21"/>
 <wire x1="12.49553125" y1="-16.004540625" x2="12.49553125" y2="-14.34591875" width="0.127" layer="21"/>
 <wire x1="12.49553125" y1="-14.34591875" x2="12.49171875" y2="-14.34591875" width="0.127" layer="21"/>
+<text x="-4.25" y="3.508" size="1.27" layer="21">Wifi kit 32</text>
 <pad name="21" x="-11.395" y="31.68" drill="1"/>
 <pad name="13" x="-11.395" y="29.04" drill="1"/>
 <pad name="12" x="-11.395" y="26.4" drill="1"/>
@@ -217,17 +216,17 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="BMP280_FOOTPRINT" urn="urn:adsk.eagle:package:39029072/4" type="model" library_version="16">
+<package3d name="BMP280_FOOTPRINT" urn="urn:adsk.eagle:package:39029072/5" type="model" library_version="22">
 <packageinstances>
 <packageinstance name="BMP280_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="MICROSD_READER_FOOTPRINT" urn="urn:adsk.eagle:package:39051340/5" type="model" library_version="20" library_locally_modified="yes">
+<package3d name="MICROSD_READER_FOOTPRINT" urn="urn:adsk.eagle:package:39051340/7" type="model" library_version="24">
 <packageinstances>
 <packageinstance name="MICROSD_READER_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/5" type="model" library_version="20" library_locally_modified="yes">
+<package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/7" type="model" library_version="23">
 <packageinstances>
 <packageinstance name="MPU6050_FOOTPRINT"/>
 </packageinstances>
@@ -237,12 +236,12 @@
 <packageinstance name="JST2.54X2P_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="SWITCH_3PIN" urn="urn:adsk.eagle:package:39192263/4" type="model" library_version="20" library_locally_modified="yes">
+<package3d name="SWITCH_3PIN" urn="urn:adsk.eagle:package:39192263/6" type="model" library_version="24">
 <packageinstances>
 <packageinstance name="SWITCH_3PIN"/>
 </packageinstances>
 </package3d>
-<package3d name="WIFI_KIT32" urn="urn:adsk.eagle:package:39051622/4" type="model" library_version="20" library_locally_modified="yes">
+<package3d name="WIFI_KIT32" urn="urn:adsk.eagle:package:39051622/7" type="model" library_version="24">
 <packageinstances>
 <packageinstance name="WIFI_KIT32"/>
 </packageinstances>
@@ -370,7 +369,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BMP280" urn="urn:adsk.eagle:component:39029074/5" library_version="16">
+<deviceset name="BMP280" urn="urn:adsk.eagle:component:39029074/6" library_version="22">
 <description>Sensor barométrico</description>
 <gates>
 <gate name="G$1" symbol="BMP280_SYMBOL" x="-27.94" y="-30.48"/>
@@ -386,7 +385,7 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39029072/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39029072/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -394,7 +393,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MICROSD_READER" urn="urn:adsk.eagle:component:39051341/6" library_version="20" library_locally_modified="yes">
+<deviceset name="MICROSD_READER" urn="urn:adsk.eagle:component:39051341/8" library_version="24">
 <description>Leitor e gravador de cartão SD</description>
 <gates>
 <gate name="G$1" symbol="MICROSD_READER_SYMBOL" x="-20.32" y="-27.94"/>
@@ -410,7 +409,7 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39051340/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39051340/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -418,7 +417,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/6" library_version="20" library_locally_modified="yes">
+<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/8" library_version="23">
 <description>Acelerômetro e Giroscópio</description>
 <gates>
 <gate name="G$1" symbol="MPU6050_SYMBOL" x="-43.18" y="-33.02"/>
@@ -436,7 +435,7 @@
 <connect gate="G$1" pin="XDA" pad="XDA"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39029071/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39029071/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -464,7 +463,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SWITCH_3PIN" urn="urn:adsk.eagle:component:39192264/3" locally_modified="yes" library_version="20" library_locally_modified="yes">
+<deviceset name="SWITCH_3PIN" urn="urn:adsk.eagle:component:39192264/5" library_version="24">
 <gates>
 <gate name="G$1" symbol="SWITCH_3PIN" x="0" y="2.54"/>
 </gates>
@@ -476,7 +475,7 @@
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39192263/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39192263/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -484,7 +483,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="WIFI_KIT32" urn="urn:adsk.eagle:component:39051402/6" locally_modified="yes" library_version="20" library_locally_modified="yes">
+<deviceset name="WIFI_KIT32" urn="urn:adsk.eagle:component:39051402/9" library_version="24">
 <description>Placa de desenvolvimento ESP32 da Heltech</description>
 <gates>
 <gate name="G$1" symbol="WIFI_KIT32_SYMBOL" x="-48.26" y="-20.32"/>
@@ -530,7 +529,7 @@
 <connect gate="G$1" pin="VEXT_2" pad="VEXT_2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39051622/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39051622/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5315,14 +5314,14 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 </class>
 </classes>
 <parts>
-<part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP280" device="V1" package3d_urn="urn:adsk.eagle:package:39029072/4"/>
-<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MICROSD_READER" device="" package3d_urn="urn:adsk.eagle:package:39051340/5"/>
-<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MPU6050" device="V1" package3d_urn="urn:adsk.eagle:package:39029071/5"/>
+<part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP280" device="V1" package3d_urn="urn:adsk.eagle:package:39029072/5"/>
+<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MICROSD_READER" device="" package3d_urn="urn:adsk.eagle:package:39051340/7"/>
+<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MPU6050" device="V1" package3d_urn="urn:adsk.eagle:package:39029071/7"/>
 <part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="SWITCH_3PIN" device="" package3d_urn="urn:adsk.eagle:package:39192263/4"/>
-<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="WIFI_KIT32" device="" package3d_urn="urn:adsk.eagle:package:39051622/4"/>
+<part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="SWITCH_3PIN" device="" package3d_urn="urn:adsk.eagle:package:39192263/6"/>
+<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="WIFI_KIT32" device="" package3d_urn="urn:adsk.eagle:package:39051622/7"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
