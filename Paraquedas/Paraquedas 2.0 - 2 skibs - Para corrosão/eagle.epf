@@ -273,7 +273,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:199"
 [Win_1]
 Type="Schematic Editor"
 Number=2
-File="Esquema.sch"
+File="C:/Users/Daniel Alencar/Documents/EAGLE/projects/Aviônica ESP32 2.0/Paraquedas/Paraquedas 2.1 - 2 skibs - Para corrosão/Esquema.sch"
 View="-26.2994 -22.8509 139.588 77.935"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
