@@ -87,6 +87,7 @@
 <wire x1="129" y1="-3" x2="0" y2="-3" width="0.1524" layer="20"/>
 <wire x1="0" y1="-3" x2="0" y2="63" width="0.1524" layer="20"/>
 <wire x1="0" y1="63" x2="129" y2="63" width="0.1524" layer="20"/>
+<dimension x1="-9" y1="63" x2="-9" y2="-3" x3="-11" y3="30" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="CRD" urn="urn:adsk.eagle:library:39051337">

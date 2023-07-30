@@ -81,8 +81,8 @@
 <hole x="3" y="0" drill="2.7"/>
 <hole x="3" y="60" drill="2.7"/>
 <dimension x1="0" y1="-7" x2="129" y2="-7" x3="64.5" y3="-8" textsize="1.778" layer="20"/>
-<dimension x1="158" y1="66" x2="53" y2="66" x3="105.5" y3="68" textsize="1.778" layer="20"/>
-<dimension x1="0" y1="73" x2="158" y2="73" x3="79" y3="75" textsize="1.778" layer="20"/>
+<dimension x1="76" y1="67" x2="-29" y2="67" x3="23.5" y3="69" textsize="1.778" layer="20"/>
+<dimension x1="-29" y1="76" x2="129" y2="76" x3="50" y3="78" textsize="1.778" layer="20"/>
 <wire x1="129" y1="63" x2="129" y2="-3" width="0.1524" layer="20"/>
 <wire x1="129" y1="-3" x2="0" y2="-3" width="0.1524" layer="20"/>
 <wire x1="0" y1="-3" x2="0" y2="63" width="0.1524" layer="20"/>

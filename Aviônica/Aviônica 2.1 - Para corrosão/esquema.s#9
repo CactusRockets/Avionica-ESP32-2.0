@@ -111,11 +111,8 @@
 <circle x="10.189" y="-10.192" radius="1" width="0.127" layer="21"/>
 <circle x="-9.811" y="-10.192" radius="1" width="0.127" layer="21"/>
 <text x="-6.111" y="8.608" size="1.27" layer="21">MicroSD reader</text>
-<dimension x1="0" y1="-17.78" x2="28.448" y2="-17.653" x3="14.218884375" y3="-16.57125625" textsize="1.27" layer="20"/>
-<dimension x1="0" y1="-20.32" x2="-12.065" y2="-20.32" x3="-6.0325" y3="-21.59" textsize="1.27" layer="20"/>
-<dimension x1="0" y1="-21.59" x2="12.065" y2="-21.59" x3="6.0325" y3="-22.86" textsize="1.27" layer="20"/>
 </package>
-<package name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029067/3" library_version="17">
+<package name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029067/3" locally_modified="yes" library_version="20" library_locally_modified="yes">
 <wire x1="-10.16" y1="-11.43" x2="10.64" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="10.64" y1="-11.43" x2="10.64" y2="4.17" width="0.127" layer="21"/>
 <wire x1="10.64" y1="4.17" x2="-10.16" y2="4.17" width="0.127" layer="21"/>
@@ -157,9 +154,9 @@
 <wire x1="-7" y1="2.651" x2="7" y2="2.651" width="0.127" layer="21"/>
 <wire x1="7" y1="-2.349" x2="7" y2="2.651" width="0.127" layer="21"/>
 <text x="-2.706" y="3.078" size="0.635" layer="21">SWITCH_3PIN</text>
-<pad name="1" x="-3" y="0.072" drill="1"/>
-<pad name="2" x="0" y="0.072" drill="1"/>
-<pad name="3" x="3" y="0.072" drill="1"/>
+<pad name="1" x="-3" y="-0.018" drill="1"/>
+<pad name="2" x="0" y="-0.018" drill="1"/>
+<pad name="3" x="3" y="-0.018" drill="1"/>
 <pad name="P$1" x="-6" y="0" drill="1.27"/>
 <pad name="P$2" x="6" y="0" drill="1.27"/>
 </package>
@@ -226,7 +223,7 @@
 <packageinstance name="MICROSD_READER_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/5" type="model" library_version="17">
+<package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/5" type="model" library_version="20" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MPU6050_FOOTPRINT"/>
 </packageinstances>
@@ -417,7 +414,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/6" library_version="17">
+<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/6" library_version="20" library_locally_modified="yes">
 <description>Acelerômetro e Giroscópio</description>
 <gates>
 <gate name="G$1" symbol="MPU6050_SYMBOL" x="-43.18" y="-33.02"/>

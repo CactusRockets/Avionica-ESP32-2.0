@@ -72,7 +72,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:eC2E5IMDRm2aw-eJDvErbw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d5523bd2-7437-4db2-b767-71d2d1ac56fe" lastsyncedrevisionid="d5523bd2-7437-4db2-b767-71d2d1ac56fe" lastboardhashguid="33d128af-a64a-b0db-033b-a1b71b82984a" lastpushedtime="2023-05-09T12:36:54Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:eC2E5IMDRm2aw-eJDvErbw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="d5523bd2-7437-4db2-b767-71d2d1ac56fe" lastsyncedrevisionid="d5523bd2-7437-4db2-b767-71d2d1ac56fe" lastboardhashguid="33d128af-a64a-b0db-033b-a1b71b82984a" lastpushedtime="2023-05-09T12:36:54Z" linktopcb3d="false"/>
 <plain>
 <wire x1="50" y1="-3" x2="-1" y2="-3" width="0" layer="20"/>
 <wire x1="-1" y1="-3" x2="-1" y2="54" width="0" layer="20"/>
@@ -1680,10 +1680,10 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="64" x="32.17" y="3.79" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="30.9" y="1.615" size="0.6096" layer="27"/>
 </element>
-<element name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO220" package3d_urn="urn:adsk.eagle:package:28520/1" value="IRF540" x="39.31" y="21.07" smashed="yes">
-<attribute name="NAME" x="35.5" y="26.277" size="1.778" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="5" x="16.45" y="28.69" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="35.373" y="23.61" size="1.778" layer="27" ratio="10"/>
+<element name="Q2" library="transistor-fet" library_urn="urn:adsk.eagle:library:396" package="TO220" package3d_urn="urn:adsk.eagle:package:28520/1" value="IRF540" x="40.01" y="21.07" smashed="yes">
+<attribute name="NAME" x="36.2" y="26.277" size="1.778" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="5" x="17.15" y="28.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="36.073" y="23.61" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="SKIB2" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" package="AK500/2-H" package3d_urn="urn:adsk.eagle:package:9901/1" value="" x="39.31" y="45.2" smashed="yes">
 <attribute name="MF" value="" x="-6.41" y="40.12" size="1.778" layer="27" display="off"/>
@@ -1798,8 +1798,8 @@ design rules under a new name.</description>
 <contactref element="E3" pad="1"/>
 <contactref element="Q2" pad="1"/>
 <wire x1="37.6" y1="3.8" x2="37.6" y2="10.4" width="1" layer="16"/>
-<wire x1="36.77" y1="11.23" x2="36.77" y2="14.72" width="1" layer="16"/>
-<wire x1="37.6" y1="10.4" x2="36.77" y2="11.23" width="1" layer="16"/>
+<wire x1="37.47" y1="10.53" x2="37.47" y2="14.72" width="1" layer="16"/>
+<wire x1="37.6" y1="10.4" x2="37.47" y2="10.53" width="1" layer="16"/>
 </signal>
 <signal name="3.3V">
 <contactref element="E1" pad="1"/>
@@ -1824,19 +1824,19 @@ design rules under a new name.</description>
 <contactref element="SKIB1" pad="2"/>
 <contactref element="Q1" pad="2"/>
 <wire x1="26.61" y1="14.72" x2="26.61" y2="20.45" width="1" layer="16"/>
-<wire x1="26.61" y1="20.45" x2="32.97" y2="26.81" width="1" layer="16"/>
-<wire x1="32.97" y1="36.3" x2="32.97" y2="26.81" width="1" layer="16"/>
+<wire x1="26.61" y1="20.45" x2="33.17" y2="27.01" width="1" layer="16"/>
+<wire x1="33.17" y1="36.1" x2="33.17" y2="27.01" width="1" layer="16"/>
 <wire x1="29.1246" y1="40.1454" x2="29.1246" y2="45.2" width="1" layer="16"/>
-<wire x1="32.97" y1="36.3" x2="29.1246" y2="40.1454" width="1" layer="16"/>
+<wire x1="33.17" y1="36.1" x2="29.1246" y2="40.1454" width="1" layer="16"/>
 </signal>
 <signal name="S2">
 <contactref element="SKIB2" pad="2"/>
 <contactref element="Q2" pad="2"/>
-<wire x1="39.31" y1="14.72" x2="39.31" y2="21.61" width="1" layer="16"/>
-<wire x1="39.31" y1="21.61" x2="45.79" y2="28.09" width="1" layer="16"/>
-<wire x1="45.79" y1="36.18" x2="45.79" y2="28.09" width="1" layer="16"/>
+<wire x1="40.01" y1="14.72" x2="40.01" y2="21.21" width="1" layer="16"/>
+<wire x1="40.01" y1="21.21" x2="46.59" y2="27.79" width="1" layer="16"/>
+<wire x1="46.59" y1="35.38" x2="46.59" y2="27.79" width="1" layer="16"/>
 <wire x1="41.8246" y1="40.1454" x2="41.8246" y2="45.2" width="1" layer="16"/>
-<wire x1="41.8246" y1="40.1454" x2="45.79" y2="36.18" width="1" layer="16"/>
+<wire x1="41.8246" y1="40.1454" x2="46.59" y2="35.38" width="1" layer="16"/>
 </signal>
 <signal name="DS">
 <polygon width="0.1524" layer="16" pour="cutout">
