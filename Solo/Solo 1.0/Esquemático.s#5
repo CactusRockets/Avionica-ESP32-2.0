@@ -7246,21 +7246,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="ARDUINO_NANO1" gate="G$1" x="-35.56" y="7.62" smashed="yes">
-<attribute name="NAME" x="-50.8" y="-22.86" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-50.8" y="-25.4" size="1.778" layer="96"/>
+<instance part="ARDUINO_NANO1" gate="G$1" x="-30.48" y="0" smashed="yes">
+<attribute name="NAME" x="-45.72" y="-30.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-45.72" y="-33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="M1" gate="G$1" x="38.1" y="12.7" smashed="yes">
-<attribute name="NAME" x="58.42" y="22.86" size="1.778" layer="95"/>
-<attribute name="VALUE" x="58.42" y="20.32" size="1.778" layer="96"/>
+<instance part="M1" gate="G$1" x="33.02" y="-2.54" smashed="yes">
+<attribute name="NAME" x="53.34" y="7.62" size="1.778" layer="95"/>
+<attribute name="VALUE" x="53.34" y="5.08" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="17.78" y="-17.78" smashed="yes">
 <attribute name="NAME" x="21.336" y="-22.352" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="23.495" y="-22.352" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="35.56" y="-20.32" smashed="yes">
-<attribute name="NAME" x="31.75" y="-18.8214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.75" y="-23.622" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="33.02" y="-20.32" smashed="yes">
+<attribute name="NAME" x="29.21" y="-18.8214" size="1.778" layer="95"/>
+<attribute name="VALUE" x="29.21" y="-23.622" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="1" x="48.26" y="-20.32" smashed="yes">
 <attribute name="NAME" x="41.91" y="-22.86" size="1.778" layer="95" rot="R90"/>

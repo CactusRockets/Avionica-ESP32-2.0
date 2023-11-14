@@ -160,7 +160,7 @@
 <pad name="P$1" x="-6" y="0" drill="1.27"/>
 <pad name="P$2" x="6" y="0" drill="1.27"/>
 </package>
-<package name="WIFI_KIT32" urn="urn:adsk.eagle:footprint:39051620/3" library_version="22">
+<package name="WIFI_KIT32" urn="urn:adsk.eagle:footprint:39051620/4" library_version="31" library_locally_modified="yes">
 <wire x1="12.5" y1="-14.492" x2="12.5" y2="33.008" width="0.127" layer="21"/>
 <wire x1="12.5" y1="33.008" x2="7.5" y2="33.008" width="0.127" layer="21"/>
 <wire x1="7.5" y1="33.008" x2="-7.5" y2="33.008" width="0.127" layer="21"/>
@@ -172,47 +172,48 @@
 <wire x1="-7.5" y1="33.008" x2="-7.5" y2="5.508" width="0.127" layer="21"/>
 <wire x1="-7.5" y1="5.508" x2="7.5" y2="5.508" width="0.127" layer="21"/>
 <wire x1="7.5" y1="5.508" x2="7.5" y2="33.008" width="0.127" layer="21"/>
-<wire x1="-12.500609375" y1="-14.423390625" x2="-12.500609375" y2="-16.00708125" width="0.127" layer="21"/>
-<wire x1="-12.500609375" y1="-16.00708125" x2="12.499340625" y2="-16.00708125" width="0.127" layer="21"/>
-<wire x1="12.49553125" y1="-16.004540625" x2="12.49553125" y2="-14.34591875" width="0.127" layer="21"/>
+<wire x1="-12.500609375" y1="-14.423390625" x2="-12.500609375" y2="-14.99108125" width="0.127" layer="21"/>
+<wire x1="-12.500609375" y1="-14.99108125" x2="12.499340625" y2="-14.99108125" width="0.127" layer="21"/>
 <wire x1="12.49553125" y1="-14.34591875" x2="12.49171875" y2="-14.34591875" width="0.127" layer="21"/>
+<wire x1="12.4968" y1="-14.478" x2="12.4968" y2="-14.9987" width="0.127" layer="21"/>
+<wire x1="12.4968" y1="-14.9987" x2="12.5095" y2="-14.9987" width="0.127" layer="21"/>
 <text x="-4.25" y="3.508" size="1.27" layer="21">Wifi kit 32</text>
-<pad name="21" x="-11.395" y="31.68" drill="1"/>
-<pad name="13" x="-11.395" y="29.04" drill="1"/>
-<pad name="12" x="-11.395" y="26.4" drill="1"/>
-<pad name="14" x="-11.395" y="23.76" drill="1"/>
-<pad name="27" x="-11.395" y="21.12" drill="1"/>
-<pad name="26" x="-11.395" y="18.48" drill="1"/>
-<pad name="25" x="-11.395" y="15.84" drill="1"/>
-<pad name="33" x="-11.395" y="13.2" drill="1"/>
-<pad name="32" x="-11.395" y="10.56" drill="1"/>
-<pad name="35" x="-11.395" y="7.92" drill="1"/>
-<pad name="34" x="-11.395" y="5.28" drill="1"/>
-<pad name="39" x="-11.395" y="2.64" drill="1"/>
-<pad name="38" x="-11.395" y="0" drill="1"/>
-<pad name="37" x="-11.395" y="-2.64" drill="1"/>
-<pad name="36" x="-11.395" y="-5.28" drill="1"/>
-<pad name="3V3_2" x="-11.395" y="-7.92" drill="1"/>
-<pad name="3V3_1" x="-11.395" y="-10.56" drill="1"/>
-<pad name="GND_1" x="-11.395" y="-13.2" drill="1"/>
-<pad name="16" x="11.338" y="31.68" drill="1"/>
-<pad name="17" x="11.338" y="29.04" drill="1"/>
-<pad name="4" x="11.338" y="26.4" drill="1"/>
-<pad name="2" x="11.338" y="23.76" drill="1"/>
-<pad name="15" x="11.338" y="21.12" drill="1"/>
-<pad name="5" x="11.338" y="18.48" drill="1"/>
-<pad name="18" x="11.338" y="15.84" drill="1"/>
-<pad name="23" x="11.338" y="13.2" drill="1"/>
-<pad name="19" x="11.338" y="10.56" drill="1"/>
-<pad name="22" x="11.338" y="7.92" drill="1"/>
-<pad name="0" x="11.338" y="5.28" drill="1"/>
-<pad name="RST" x="11.338" y="2.64" drill="1"/>
-<pad name="TX" x="11.338" y="0" drill="1"/>
-<pad name="RX" x="11.338" y="-2.64" drill="1"/>
-<pad name="VEXT_2" x="11.338" y="-5.28" drill="1"/>
-<pad name="VEXT_1" x="11.338" y="-7.92" drill="1"/>
-<pad name="5V" x="11.338" y="-10.56" drill="1"/>
-<pad name="GND_2" x="11.338" y="-13.2" drill="1"/>
+<pad name="21" x="-11.43" y="31.75" drill="1"/>
+<pad name="13" x="-11.43" y="29.21" drill="1"/>
+<pad name="12" x="-11.43" y="26.67" drill="1"/>
+<pad name="14" x="-11.43" y="24.13" drill="1"/>
+<pad name="27" x="-11.43" y="21.59" drill="1"/>
+<pad name="26" x="-11.43" y="19.05" drill="1"/>
+<pad name="25" x="-11.43" y="16.51" drill="1"/>
+<pad name="33" x="-11.43" y="13.97" drill="1"/>
+<pad name="32" x="-11.43" y="11.43" drill="1"/>
+<pad name="35" x="-11.43" y="8.89" drill="1"/>
+<pad name="34" x="-11.43" y="6.35" drill="1"/>
+<pad name="39" x="-11.43" y="3.81" drill="1"/>
+<pad name="38" x="-11.43" y="1.27" drill="1"/>
+<pad name="37" x="-11.43" y="-1.27" drill="1"/>
+<pad name="36" x="-11.43" y="-3.81" drill="1"/>
+<pad name="3V3_2" x="-11.43" y="-6.35" drill="1"/>
+<pad name="3V3_1" x="-11.43" y="-8.89" drill="1"/>
+<pad name="GND_1" x="-11.43" y="-11.43" drill="1"/>
+<pad name="16" x="11.43" y="31.75" drill="1"/>
+<pad name="17" x="11.43" y="29.21" drill="1"/>
+<pad name="4" x="11.43" y="26.67" drill="1"/>
+<pad name="2" x="11.43" y="24.13" drill="1"/>
+<pad name="15" x="11.43" y="21.59" drill="1"/>
+<pad name="5" x="11.43" y="19.05" drill="1"/>
+<pad name="18" x="11.43" y="16.51" drill="1"/>
+<pad name="23" x="11.43" y="13.97" drill="1"/>
+<pad name="19" x="11.43" y="11.43" drill="1"/>
+<pad name="22" x="11.43" y="8.89" drill="1"/>
+<pad name="0" x="11.43" y="6.35" drill="1"/>
+<pad name="RST" x="11.43" y="3.81" drill="1"/>
+<pad name="TX" x="11.43" y="1.27" drill="1"/>
+<pad name="RX" x="11.43" y="-1.27" drill="1"/>
+<pad name="VEXT_2" x="11.43" y="-3.81" drill="1"/>
+<pad name="VEXT_1" x="11.43" y="-6.35" drill="1"/>
+<pad name="5V" x="11.43" y="-8.89" drill="1"/>
+<pad name="GND_2" x="11.43" y="-11.43" drill="1"/>
 </package>
 </packages>
 <packages3d>
@@ -241,7 +242,7 @@
 <packageinstance name="SWITCH_3PIN"/>
 </packageinstances>
 </package3d>
-<package3d name="WIFI_KIT32" urn="urn:adsk.eagle:package:39051622/7" type="model" library_version="24">
+<package3d name="WIFI_KIT32" urn="urn:adsk.eagle:package:39051622/9" type="model" library_version="31" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="WIFI_KIT32"/>
 </packageinstances>
@@ -280,7 +281,7 @@
 <wire x1="17.78" y1="33.02" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
 <text x="-6.35" y="5.08" size="1.27" layer="94">MicroSD reader</text>
 </symbol>
-<symbol name="MPU6050_SYMBOL" urn="urn:adsk.eagle:symbol:39029069/3" library_version="17">
+<symbol name="MPU6050_SYMBOL" urn="urn:adsk.eagle:symbol:39029069/4" library_version="31" library_locally_modified="yes">
 <pin name="VCC" x="-17.78" y="-17.78" length="middle" rot="R90"/>
 <pin name="GND" x="-12.7" y="-17.78" length="middle" rot="R90"/>
 <pin name="SCL" x="-7.62" y="-17.78" length="middle" rot="R90"/>
@@ -417,7 +418,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/8" library_version="23">
+<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/9" library_version="31" library_locally_modified="yes">
 <description>Acelerômetro e Giroscópio</description>
 <gates>
 <gate name="G$1" symbol="MPU6050_SYMBOL" x="-43.18" y="-33.02"/>
@@ -483,7 +484,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="WIFI_KIT32" urn="urn:adsk.eagle:component:39051402/9" library_version="24">
+<deviceset name="WIFI_KIT32" urn="urn:adsk.eagle:component:39051402/11" locally_modified="yes" library_version="31" library_locally_modified="yes">
 <description>Placa de desenvolvimento ESP32 da Heltech</description>
 <gates>
 <gate name="G$1" symbol="WIFI_KIT32_SYMBOL" x="-48.26" y="-20.32"/>
@@ -529,7 +530,7 @@
 <connect gate="G$1" pin="VEXT_2" pad="VEXT_2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39051622/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39051622/9"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5321,7 +5322,7 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="SWITCH_3PIN" device="" package3d_urn="urn:adsk.eagle:package:39192263/6"/>
-<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="WIFI_KIT32" device="" package3d_urn="urn:adsk.eagle:package:39051622/7"/>
+<part name="U$4" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="WIFI_KIT32" device="" package3d_urn="urn:adsk.eagle:package:39051622/9"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

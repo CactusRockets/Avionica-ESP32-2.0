@@ -1814,10 +1814,10 @@ design rules under a new name.</description>
 <wire x1="117" y1="27" x2="117" y2="41" width="1" layer="1"/>
 <wire x1="84" y1="20" x2="83" y2="19" width="1" layer="1"/>
 <wire x1="84" y1="25" x2="83" y2="26" width="1" layer="1"/>
+<via x="83" y="26" extent="1-16" drill="0.35"/>
+<via x="83" y="19" extent="1-16" drill="0.35"/>
 <wire x1="119.415" y1="46.19" x2="117" y2="41" width="0" layer="19" extent="1-1"/>
 <wire x1="88.148" y1="24.651" x2="117" y2="41" width="0" layer="19" extent="1-1"/>
-<wire x1="83" y1="26" x2="80.4" y2="29.638" width="0" layer="19" extent="1-1"/>
-<wire x1="80.4" y1="6.905" x2="83" y2="19" width="0" layer="19" extent="1-1"/>
 <wire x1="6.5" y1="32.93" x2="27.0845" y2="27.3555" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">

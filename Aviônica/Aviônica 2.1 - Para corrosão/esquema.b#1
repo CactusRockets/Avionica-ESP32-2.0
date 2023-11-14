@@ -74,7 +74,7 @@
 <layer number="102" name="Changes" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:HlMlsNpuT-m1BwDsnHgy8Q" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="acbb0c46-0389-467f-8afc-dd1e93af5b6a" lastsyncedrevisionid="acbb0c46-0389-467f-8afc-dd1e93af5b6a" lastboardhashguid="2de25614-ad44-932a-cff8-8bfcf872ec77" lastpushedtime="2023-05-08T02:50:06Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6ZGlzY2VudGU3MA" projecturn="a.YnVzaW5lc3M6ZGlzY2VudGU3MCMyMDIyMDIxNzQ5ODU5MDQ4MQ" f3durn="urn:adsk.wipprod:dm.lineage:HlMlsNpuT-m1BwDsnHgy8Q" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="acbb0c46-0389-467f-8afc-dd1e93af5b6a" lastsyncedrevisionid="acbb0c46-0389-467f-8afc-dd1e93af5b6a" lastboardhashguid="2de25614-ad44-932a-cff8-8bfcf872ec77" lastpushedtime="2023-05-08T02:50:06Z" linktopcb3d="true"/>
 <plain>
 <hole x="126" y="0" drill="2.7"/>
 <hole x="126" y="60" drill="2.7"/>

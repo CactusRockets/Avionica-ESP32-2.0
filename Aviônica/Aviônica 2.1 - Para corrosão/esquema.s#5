@@ -128,6 +128,7 @@
 <circle x="-8.16" y="2.57" radius="1" width="0.127" layer="21"/>
 <circle x="8.84" y="2.57" radius="1" width="0.127" layer="21"/>
 <text x="-3.66" y="-3.93" size="1.27" layer="21">MPU6050</text>
+<dimension x1="-12.4" y1="4.2" x2="-12.5" y2="-10.8" x3="-13.8456875" y3="-3.290696875" textsize="1.27" layer="20"/>
 </package>
 <package name="JST2.54X2P_FOOTPRINT" urn="urn:adsk.eagle:footprint:39191965/1" library_version="9">
 <pad name="1" x="-1.27" y="0" drill="0.9"/>

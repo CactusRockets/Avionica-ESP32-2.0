@@ -7396,13 +7396,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="M1" gate="G$1" pin="VCC"/>
-<wire x1="-86.36" y1="-27.94" x2="-50.8" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-27.94" x2="-50.8" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-53.34" x2="-2.54" y2="-53.34" width="0.1524" layer="91"/>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="3V3"/>
 <wire x1="-2.54" y1="-53.34" x2="-2.54" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="-20.32" x2="-10.16" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="VCC"/>
+<wire x1="-50.8" y1="-27.94" x2="-86.36" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -7415,7 +7415,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <approved hash="202,1,-10.16,7.62,ARDUINO_NANO1,!RESET,,,,"/>
 <approved hash="204,1,-10.16,12.7,ARDUINO_NANO1,VIN,,,,"/>
 <approved hash="104,1,-86.36,-27.94,M1,VCC,N$10,,,"/>
-<approved hash="113,1,-30.48,-7.85283,ARDUINO_NANO1,,,,,"/>
+<approved hash="113,1,-30.48,-7.83378,ARDUINO_NANO1,,,,,"/>
 <approved hash="113,1,38.4217,-31.75,LED1,,,,,"/>
 <approved hash="113,1,30.48,-24.3103,R1,,,,,"/>
 <approved hash="113,1,10.16,-30.7746,S1,,,,,"/>
